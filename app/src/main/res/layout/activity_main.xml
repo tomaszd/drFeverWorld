@@ -36,7 +36,7 @@
             android:background="@drawable/button_bez"
             android:elevation="0dp"
             android:fontFamily="casual"
-            android:text="Select Drug"
+            android:text="@string/select_drug"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Button"
