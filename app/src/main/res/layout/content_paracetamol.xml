@@ -70,7 +70,7 @@
                 android:gravity="center"
                 android:textSize="30dp"
                 android:fontFamily="casual"
-                android:text="50 KG" />
+                android:text="50 \nKG" />
         </LinearLayout>
 
         <SeekBar
@@ -104,11 +104,11 @@
                 android:id="@+id/textViewWiek"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="1.60"
                 android:gravity="center"
                 android:fontFamily="casual"
                 android:textSize="30dp"
-                android:text="50" />
+                android:text="50 \nyears" />
         </LinearLayout>
 
 

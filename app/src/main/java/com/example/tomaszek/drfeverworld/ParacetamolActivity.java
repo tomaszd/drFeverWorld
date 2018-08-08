@@ -25,7 +25,7 @@ public class ParacetamolActivity extends AppCompatActivity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progresValue, boolean fromUser) {
                 progress = progresValue;
-                textViewWaga.setText(progress + " kg");
+                textViewWaga.setText(progress + "\nkg");
             }
 
             @Override
@@ -34,7 +34,7 @@ public class ParacetamolActivity extends AppCompatActivity {
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                textViewWaga.setText(progress + " kg");
+                textViewWaga.setText(progress + "\nkg");
             }
 
         });
@@ -44,7 +44,7 @@ public class ParacetamolActivity extends AppCompatActivity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progresValue, boolean fromUser) {
                 progress = progresValue;
-                textViewWiek.setText(progress + " years");
+                textViewWiek.setText(progress + "\nyears");
             }
 
             @Override
@@ -53,7 +53,7 @@ public class ParacetamolActivity extends AppCompatActivity {
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                textViewWiek.setText(progress + " years");
+                textViewWiek.setText(progress + "\nyears");
             }
         });
 
