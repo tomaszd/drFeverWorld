@@ -25,11 +25,14 @@
 
         <LinearLayout
             android:id="@+id/linearRibbon"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal|center_vertical"
             android:orientation="horizontal">
-
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
             <ImageView
                 android:id="@+id/imageViewRibbon"
                 android:layout_width="0dp"
@@ -38,7 +41,7 @@
                 android:src="@drawable/i_ribbonpion" />
 
             <Space
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="5" />
         </LinearLayout>
@@ -69,7 +72,7 @@
                 android:layout_weight="1"
                 android:fontFamily="casual"
                 android:gravity="center"
-                android:text="50 KG"
+                android:text="50\nKG"
                 android:textSize="30dp" />
         </LinearLayout>
 
@@ -97,9 +100,10 @@
 
             <ImageView
                 android:id="@+id/imageViewAge_bez"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="100dp"
-                android:src="@drawable/age_bez" />
+                android:src="@drawable/age_bez"
+                android:layout_weight="2"/>
 
             <TextView
                 android:id="@+id/textViewWiek"
@@ -108,7 +112,7 @@
                 android:layout_weight="1"
                 android:fontFamily="casual"
                 android:gravity="center"
-                android:text="50"
+                android:text="50\nyears"
                 android:textSize="30dp" />
         </LinearLayout>
 
