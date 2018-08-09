@@ -4,6 +4,7 @@
     <string name="app_description"> The recommended dose is informative and is calculated in accordance with age and weight indications.    Remember to read the instructions in the package leaflet that comes with the medicine.    If in doubt, consult your doctor or pharmacist.    The application is informative and can not replace consultations in a doctor\'s office    Dr Fever- Paracetamol AND Ibuprofen is a dose calculation tool for administering the most popular antipyretics.</string>
     <string name="title_activity_ibuprofen">IbuprofenActivity</string>
     <string name="title_activity_paracetamol">ParacetamolActivity</string>
+    <string name="title_activity_paracetamol_dosage">ParacetamolDosageActivity</string>
 </resources>
 
 

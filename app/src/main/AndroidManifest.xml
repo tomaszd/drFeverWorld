@@ -27,7 +27,11 @@
             android:name=".ParacetamolActivity"
             android:label="@string/title_activity_paracetamol"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ParacetamolDosageActivity"
+            android:label="@string/title_activity_paracetamol_dosage"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
