@@ -4,7 +4,6 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/zigzags"
     android:gravity="center_horizontal|center_vertical"
     android:orientation="vertical"
     tools:background="@drawable/background">
@@ -29,10 +28,12 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal|center_vertical"
             android:orientation="horizontal">
+
             <Space
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
+
             <ImageView
                 android:id="@+id/imageViewRibbon"
                 android:layout_width="0dp"
@@ -85,6 +86,7 @@
         <Space
             android:layout_width="1dp"
             android:layout_height="20dp" />
+
         <LinearLayout
             android:id="@+id/linearWiek"
             android:layout_width="match_parent"
@@ -102,7 +104,7 @@
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:src="@drawable/age_bez"
-                android:layout_weight="2"/>
+                android:layout_weight="2" />
 
             <TextView
                 android:id="@+id/textViewWiek"
