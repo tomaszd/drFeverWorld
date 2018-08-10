@@ -10,3 +10,5 @@
 /.idea/sonarIssues.xml
 /.idea/modules.xml
 /.idea/misc.xml
+.idea/inspectionProfiles/
+.idea/vcs.xml
