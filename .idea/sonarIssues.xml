@@ -8,7 +8,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Github/FoodClicker/app/src/main/java/com/doktornutria/tomaszek/foodclicker/LogActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Github/FoodClicker/app/src/main/res/layout/slide_screen_01.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.idea/sonarIssues.xml">
           <value>
             <set />
           </value>
@@ -58,12 +73,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_paracetamol_dosage.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/content_ibuprofen.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/content_paracetamol.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/content_paracetamol_dosage.xml">
           <value>
             <set />
           </value>
@@ -89,6 +114,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../ngc-log/log-reporting-service/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-log/log-reporting-service/src/main/AndroidManifest.xml">
           <value>
             <set />
           </value>
