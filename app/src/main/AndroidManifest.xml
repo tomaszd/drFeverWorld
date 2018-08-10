@@ -32,7 +32,8 @@
             android:name=".ParacetamolDosageActivity"
             android:label="@string/title_activity_paracetamol_dosage"
             android:theme="@style/AppTheme" />
-        <activity android:name=".IbuprofenDosageActivity"></activity>
+        <activity android:name=".IbuprofenDosageActivity" />
+        <activity android:name=".ParacetamolConcentration"></activity>
     </application>
 
 </manifest>
