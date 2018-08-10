@@ -91,6 +91,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/FontSizeConcentration"
+                    android:digits="0123456789"
+                    android:inputType="numberDecimal"
                     android:hint="XXXX"/>
 
                 <TextView
@@ -105,6 +107,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/FontSizeConcentration"
+                    android:digits="0123456789"
+                    android:inputType="numberDecimal"
                     android:hint="YYYY"/>
                 <TextView
                     android:layout_width="wrap_content"
