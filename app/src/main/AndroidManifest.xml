@@ -31,10 +31,17 @@
         <activity
             android:name=".ParacetamolDosageActivity"
             android:label="@string/title_activity_paracetamol_dosage"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
-        <activity android:name=".IbuprofenDosageActivity" />
-        <activity android:name=".ParacetamolConcentration" />
-        <activity android:name=".ParacetamolCalcActivity"></activity>
+        <activity
+            android:name=".IbuprofenDosageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ParacetamolConcentration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ParacetamolCalcActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
