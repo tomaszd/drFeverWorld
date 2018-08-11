@@ -12,10 +12,11 @@ public class IbuprofenCalcActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ibuprofen_calc);
 
+
         int age = 0;
         int weight = 0;
-        String Mg = "";
-        String Ml = "";
+        int Mg = 0;
+        int Ml = 0;
 
 
         final TextView text_view_id = (TextView) findViewById(R.id.text_view_id);
@@ -23,8 +24,8 @@ public class IbuprofenCalcActivity extends AppCompatActivity {
         SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0); // 0 - for private mode
         age = pref.getInt("age", 0); // getting Integer
         weight = pref.getInt("weight", 0); // getting Integer
-        Mg = pref.getString("Mg", "buba"); // getting Integer
-        Ml = pref.getString("Ml", "buba"); // getting Integer
+        Mg = pref.getInt("Mg", 0); // getting Integer
+        Ml = pref.getInt("Ml", 0); // getting Integer
 
 
         text_view_id.setText(" Age : " + String.valueOf(age) +
