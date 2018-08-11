@@ -1,6 +1,8 @@
 package com.example.tomaszek.drfeverworld;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -72,6 +74,14 @@ public class IbuprofenActivity extends AppCompatActivity {
                 Intent myIntent = new Intent(IbuprofenActivity.this, IbuprofenDosageActivity.class);
                 myIntent.putExtra("age", age);
                 myIntent.putExtra("weight", weight);
+
+                SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("MyPref", 0);
+                SharedPreferences.Editor editor = sharedPref.edit();
+                editor.putInt("age", age);
+                editor.putInt("weight", weight);
+                editor.commit();
+
+
                 IbuprofenActivity.this.startActivity(myIntent);
             }
         });
