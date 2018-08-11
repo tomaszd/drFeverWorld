@@ -1,6 +1,5 @@
 package com.example.tomaszek.drfeverworld;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -10,8 +9,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
-
-import static com.example.tomaszek.drfeverworld.R.drawable.age;
 
 public class IbuprofenActivity extends AppCompatActivity {
     int age = 0;
