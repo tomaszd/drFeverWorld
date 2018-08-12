@@ -35,10 +35,10 @@
                 android:layout_width="0dp"
                 android:layout_height="160dp"
                 android:layout_weight="2"
-                android:background="@drawable/p_ribbonpion"
+                android:background="@drawable/i_ribbonpion"
                 android:fontFamily="cursive"
                 android:src="@drawable/p_ribbonpion"
-                android:text="P"
+                android:text="I"
                 android:textColor="@android:color/white"
                 android:textSize="40dp" />
 
@@ -52,7 +52,7 @@
                 android:layout_width="0dp"
                 android:layout_height="200dp"
                 android:layout_weight="4"
-                android:src="@drawable/para_syr" />
+                android:src="@drawable/ibup_czop" />
 
             <Space
                 android:layout_width="0dp"
@@ -68,7 +68,7 @@
         <LinearLayout
             android:id="@+id/linearConcentration"
             android:layout_width="match_parent"
-            android:background="@drawable/parac_znaczek_bez"
+            android:background="@drawable/ibupr_znaczek_bez"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal|center_vertical"
             android:orientation="vertical">
@@ -99,22 +99,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
-                    android:text=" mg /"
-                    android:textStyle="bold"
-                    android:textSize="@dimen/FontSizeConcentration" />
-                <EditText
-                    android:id="@+id/editTextMl"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="@dimen/FontSizeConcentration"
-                    android:digits="0123456789"
-                    android:inputType="numberDecimal"
-                    android:hint="YYYY"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="casual"
-                    android:text=" ML"
+                    android:text=" mg / SUPP"
                     android:textStyle="bold"
                     android:textSize="@dimen/FontSizeConcentration" />
             </LinearLayout>
@@ -140,7 +125,7 @@
                 android:layout_width="0dp"
                 android:layout_height="200dp"
                 android:layout_weight="3"
-                android:src="@drawable/parac_kalk" />
+                android:src="@drawable/ibup_kalk" />
 
             <Space
                 android:layout_width="0dp"

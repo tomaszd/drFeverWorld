@@ -99,7 +99,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
-                    android:text=" MG /"
+                    android:text=" mg /"
                     android:textStyle="bold"
                     android:textSize="@dimen/FontSizeConcentration" />
                 <EditText
