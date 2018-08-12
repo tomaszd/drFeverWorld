@@ -57,7 +57,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/buttonParacetamolDosage"
+            android:id="@+id/buttonIbuprofenDosage"
             android:layout_width="match_parent"
             android:layout_height="134dp"
             android:background="@drawable/ibupr_znaczek_bez"
@@ -67,7 +67,8 @@
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Button"
-            android:textSize="22sp" />
+            android:textStyle="bold"
+            android:textSize="20sp" />
 
         <LinearLayout
             android:id="@+id/linear1"
