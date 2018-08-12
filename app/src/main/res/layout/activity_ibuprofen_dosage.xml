@@ -57,7 +57,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/buttonParacetamol2"
+            android:id="@+id/buttonParacetamolDosage"
             android:layout_width="match_parent"
             android:layout_height="134dp"
             android:background="@drawable/ibupr_znaczek_bez"

@@ -23,7 +23,7 @@
             android:layout_height="1dp" />
 
         <Button
-            android:id="@+id/buttonParacetamol2"
+            android:id="@+id/buttonParacetamolDosage"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
