@@ -26,6 +26,14 @@ public class IbuprofenActivity extends AppCompatActivity {
         final TextView textViewWaga = (TextView) findViewById(R.id.textViewWaga);
         final ImageView imageViewCalc = (ImageView) findViewById(R.id.imageViewCalc);
 
+
+        SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0); // 0 - for private mode
+        age = pref.getInt("age", 50); // getting Integer
+        weight = pref.getInt("weight", 50); // getting Integer
+        seekBarWaga.setProgress(weight);
+        seekBarWiek.setProgress(age);
+
+
         seekBarWaga.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             int progress = 0;
 
