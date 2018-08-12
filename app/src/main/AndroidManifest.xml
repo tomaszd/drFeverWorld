@@ -54,8 +54,12 @@
         <activity
             android:name=".ParacetamolConcentrationSuppActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".IbuprofenConcentrationPillsActivity" />
-        <activity android:name=".IbuprofenCalculationSuppActivity"></activity>
+        <activity
+            android:name=".IbuprofenConcentrationPillsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IbuprofenCalculationSuppActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
