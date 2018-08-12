@@ -16,6 +16,15 @@ public class ParacetamolDosageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_paracetamol_dosage);
 
         final ImageView imageViewSirop = (ImageView) findViewById(R.id.imageViewSirop);
+        final ImageView imageViewCzop = (ImageView) findViewById(R.id.imageViewCzop);
+        final ImageView imageViewTabl = (ImageView) findViewById(R.id.imageViewTabl);
+
+        imageViewCzop.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent myIntent = new Intent(ParacetamolDosageActivity.this, ParacetamolConcentrationSuppActivity.class);
+                ParacetamolDosageActivity.this.startActivity(myIntent);
+            }
+        });
 
         imageViewSirop.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
@@ -23,6 +32,13 @@ public class ParacetamolDosageActivity extends AppCompatActivity {
                 ParacetamolDosageActivity.this.startActivity(myIntent);
             }
         });
+        imageViewTabl.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent myIntent = new Intent(ParacetamolDosageActivity.this, ParacetamolConcentrationPillsActivity.class);
+                ParacetamolDosageActivity.this.startActivity(myIntent);
+            }
+        });
+
 
         final Button buttonParacetamolDosage = (Button) findViewById(R.id.buttonParacetamolDosage);
 

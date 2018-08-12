@@ -15,6 +15,8 @@ public class IbuprofenDosageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ibuprofen_dosage);
         final ImageView imageViewSirop = (ImageView) findViewById(R.id.imageViewSirop);
+        final ImageView imageViewTabl = (ImageView) findViewById(R.id.imageViewTabl);
+        final ImageView imageViewCzop = (ImageView) findViewById(R.id.imageViewCzop);
 
         imageViewSirop.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
@@ -22,6 +24,21 @@ public class IbuprofenDosageActivity extends AppCompatActivity {
                 IbuprofenDosageActivity.this.startActivity(myIntent);
             }
         });
+
+        imageViewTabl.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent myIntent = new Intent(IbuprofenDosageActivity.this, IbuprofenConcentrationPillsActivity.class);
+                IbuprofenDosageActivity.this.startActivity(myIntent);
+            }
+        });
+
+        imageViewTabl.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent myIntent = new Intent(IbuprofenDosageActivity.this, IbuprofenCalculationSuppActivity.class);
+                IbuprofenDosageActivity.this.startActivity(myIntent);
+            }
+        });
+
 
         final Button buttonIbuprofenDosage = (Button) findViewById(R.id.buttonIbuprofenDosage);
 
