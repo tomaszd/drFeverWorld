@@ -23,7 +23,7 @@ public class IbuprofenDosageActivity extends AppCompatActivity {
             }
         });
 
-        final Button buttonParacetamolDosage = (Button) findViewById(R.id.buttonParacetamolDosage);
+        final Button buttonIbuprofenDosage = (Button) findViewById(R.id.buttonIbuprofenDosage);
 
         SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0); // 0 - for private mode
         int age = pref.getInt("age", 50); // getting Integer
@@ -42,7 +42,7 @@ public class IbuprofenDosageActivity extends AppCompatActivity {
         } else if (age > 12) {
             dosageText = String.valueOf(totalDosage / 2) + " mg every 12h\n or\n" + String.valueOf(totalDosage / 4) + " mg every 6h";
         }
-        buttonParacetamolDosage.setText(dosageText);
+        buttonIbuprofenDosage.setText(dosageText);
         SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("MyPref", 0);
         SharedPreferences.Editor editor = sharedPref.edit();
         editor.putInt("IbuprofenTotal", Integer.valueOf(totalDosage));
