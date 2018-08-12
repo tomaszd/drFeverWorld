@@ -64,7 +64,7 @@
             android:background="@drawable/parac_znaczek_bez"
             android:elevation="0dp"
             android:fontFamily="casual"
-            android:text="200 mg every 4h\n or 500 mg every 6h"
+            android:text="200 mg every 4h\n or\n 500 mg every 6h"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Button"

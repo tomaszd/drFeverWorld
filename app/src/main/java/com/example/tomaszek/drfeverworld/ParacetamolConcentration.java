@@ -30,10 +30,6 @@ public class ParacetamolConcentration extends AppCompatActivity {
                 editor.putInt("Mg",Integer.valueOf(Mg));
                 editor.putInt("Ml",Integer.valueOf(Ml));
                 editor.commit();
-
-
-
-
                 ParacetamolConcentration.this.startActivity(myIntent);
             }
         });
