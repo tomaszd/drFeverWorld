@@ -23,12 +23,12 @@ public class ParacetamolConcentration extends AppCompatActivity {
         imageViewCalc.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 Intent myIntent = new Intent(ParacetamolConcentration.this, ParacetamolCalcActivity.class);
-                String Mg =  editTextMg.getText().toString();
-                String Ml =  editTextMl.getText().toString();
+                String Mg = editTextMg.getText().toString();
+                String Ml = editTextMl.getText().toString();
                 SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("MyPref", 0);
                 SharedPreferences.Editor editor = sharedPref.edit();
-                editor.putInt("Mg",Integer.valueOf(Mg));
-                editor.putInt("Ml",Integer.valueOf(Ml));
+                editor.putInt("Mg", Integer.valueOf(Mg));
+                editor.putInt("Ml", Integer.valueOf(Ml));
                 editor.commit();
                 ParacetamolConcentration.this.startActivity(myIntent);
             }

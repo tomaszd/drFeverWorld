@@ -32,6 +32,8 @@ public class IbuprofenActivity extends AppCompatActivity {
         weight = pref.getInt("weight", 50); // getting Integer
         seekBarWaga.setProgress(weight);
         seekBarWiek.setProgress(age);
+        textViewWiek.setText(age + "\nyears");
+        textViewWaga.setText(weight + "\nkg");
 
 
         seekBarWaga.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
