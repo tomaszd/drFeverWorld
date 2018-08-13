@@ -19,17 +19,24 @@ public class IbuprofenConcentration extends AppCompatActivity {
 
         final EditText editTextMg = (EditText) findViewById(R.id.editTextMg);
         final EditText editTextMl = (EditText) findViewById(R.id.editTextMl);
+        SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("MyPref", 0);
+        final SharedPreferences.Editor editor = sharedPref.edit();
+        int IbupMg = sharedPref.getInt("IbupMg", 100);
+        int IbupMl = sharedPref.getInt("IbupMl", 100);
+        editTextMg.setText(String.valueOf(IbupMg));
+        editTextMl.setText(String.valueOf(IbupMl));
 
 
         imageViewCalc.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 Intent myIntent = new Intent(IbuprofenConcentration.this, IbuprofenCalcActivity.class);
-                String Mg = editTextMg.getText().toString();
-                String Ml = editTextMl.getText().toString();
+                myIntent.putExtra("ibuprofen_way_of_giving", "syrup");
+                String IbupMg = editTextMg.getText().toString();
+                String IbupMl = editTextMl.getText().toString();
                 SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("MyPref", 0);
                 SharedPreferences.Editor editor = sharedPref.edit();
-                editor.putInt("Mg", Integer.valueOf(Mg));
-                editor.putInt("Ml", Integer.valueOf(Ml));
+                editor.putInt("IbupMg", Integer.valueOf(IbupMg));
+                editor.putInt("IbupMl", Integer.valueOf(IbupMl));
 
 
                 IbuprofenConcentration.this.startActivity(myIntent);

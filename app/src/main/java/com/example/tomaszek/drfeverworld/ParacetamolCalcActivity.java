@@ -26,17 +26,15 @@ public class ParacetamolCalcActivity extends AppCompatActivity {
         SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0); // 0 - for private mode
         age = pref.getInt("age", 0); // getting Integer
         weight = pref.getInt("weight", 0); // getting Integer
-        ParacMg = pref.getInt("ParacMg", 0); // getting Integer
-        ParacMl = pref.getInt("ParacMl", 0); // getting Integer
-        ParacMgSupp = pref.getInt("ParacMgSupp", 0); // getting Integer
-        ParacMgPill = pref.getInt("ParacMgPill", 0); // getting Integer
+        ParacMg = pref.getInt("ParacMg", 100); // getting Integer
+        ParacMl = pref.getInt("ParacMl", 100); // getting Integer
+        ParacMgSupp = pref.getInt("ParacMgSupp", 100); // getting Integer
+        ParacMgPill = pref.getInt("ParacMgPill", 100); // getting Integer
         ParacetamolTotal = pref.getInt("ParacetamolTotal", 0); // getting Integer
 
         Intent intent = getIntent();
 
         String paracetamol_way_of_giving = intent.getStringExtra("paracetamol_way_of_giving");
-
-        //"  GIVE xxx ml 6a day\n                or\n    give e them or 4 days "
 
         if (paracetamol_way_of_giving.equals("pills")) {
             String dosageText = getStringDosage(ParacetamolTotal, 4, ParacMgPill) + " pill every 6h\n        or\n" + getStringDosage(ParacetamolTotal, 6, ParacMgPill) + "pill every 4h";

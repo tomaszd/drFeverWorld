@@ -32,7 +32,7 @@ public class IbuprofenDosageActivity extends AppCompatActivity {
             }
         });
 
-        imageViewTabl.setOnClickListener(new Button.OnClickListener() {
+        imageViewCzop.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 Intent myIntent = new Intent(IbuprofenDosageActivity.this, IbuprofenCalculationSuppActivity.class);
                 IbuprofenDosageActivity.this.startActivity(myIntent);
@@ -47,9 +47,6 @@ public class IbuprofenDosageActivity extends AppCompatActivity {
         int weight = pref.getInt("weight", 50); // getting Integer
         int totalDosage = 10 * weight;
 
-        //dorosli -> 2/4 razy na dobe;
-        //7-12 - 3, 4 razy na dobre
-        //ponizej 7 -> co 4 , 6  @Todo dobre dawkowanie!!!!
 
         String dosageText = String.valueOf(totalDosage / 4) + " mg every 6h\n or\n" + String.valueOf(totalDosage / 6) + " mg every 4h";
         if (age < 7) {
