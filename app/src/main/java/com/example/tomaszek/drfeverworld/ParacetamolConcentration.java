@@ -23,6 +23,7 @@ public class ParacetamolConcentration extends AppCompatActivity {
         imageViewCalc.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 Intent myIntent = new Intent(ParacetamolConcentration.this, ParacetamolCalcActivity.class);
+                myIntent.putExtra("paracetamol_way_of_giving", "syrup");
                 String Mg = editTextMg.getText().toString();
                 String Ml = editTextMl.getText().toString();
                 SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("MyPref", 0);
