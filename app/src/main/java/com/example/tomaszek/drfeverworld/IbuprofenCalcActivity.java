@@ -39,36 +39,36 @@ public class IbuprofenCalcActivity extends AppCompatActivity {
         String ibuprofen_way_of_giving = intent.getStringExtra("ibuprofen_way_of_giving");
 
         if (ibuprofen_way_of_giving.equals("pills")) {
-            String dosageText = getStringDosage(IbuprofenTotal, 4, IbuprofenMgPill) + " pill every 6h\n        or\n" + getStringDosage(IbuprofenTotal, 6, IbuprofenMgPill) + "pill every 4h";
+            String dosageText = getStringDosage(IbuprofenTotal, 4, IbuprofenMgPill) + " pill every 6h\n          or\n" + getStringDosage(IbuprofenTotal, 6, IbuprofenMgPill) + "pill every 4h";
             if (age < 7) {
-                dosageText = getStringDosage(IbuprofenTotal, 4, IbuprofenMgPill) + " pill every 6h\n        or\n" + getStringDosage(IbuprofenTotal, 6, IbuprofenMgPill) + " pill every 4h";
+                dosageText = getStringDosage(IbuprofenTotal, 4, IbuprofenMgPill) + " pill every 6h\n          or\n" + getStringDosage(IbuprofenTotal, 6, IbuprofenMgPill) + " pill every 4h";
             } else if (age >= 7 && age <= 12) {
-                dosageText = getStringDosage(IbuprofenTotal, 3, IbuprofenMgPill) + " pill every 8h\n        or\n" + getStringDosage(IbuprofenTotal, 4, IbuprofenMgPill) + " pill every 6h";
+                dosageText = getStringDosage(IbuprofenTotal, 3, IbuprofenMgPill) + " pill every 8h\n          or\n" + getStringDosage(IbuprofenTotal, 4, IbuprofenMgPill) + " pill every 6h";
             } else if (age > 12) {
-                dosageText = getStringDosage(IbuprofenTotal, 2, IbuprofenMgPill) + " pill every 12h\n        or\n" + getStringDosage(IbuprofenTotal, 4, IbuprofenMgPill) + " pill every 6h";
+                dosageText = getStringDosage(IbuprofenTotal, 2, IbuprofenMgPill) + " pill every 12h\n          or\n" + getStringDosage(IbuprofenTotal, 4, IbuprofenMgPill) + " pill every 6h";
             }
             text_view_id.setText(dosageText);
         }
         if (ibuprofen_way_of_giving.equals("supp")) {
-            String dosageText = getStringDosage(IbuprofenTotal, 4, IbuprofenMgSupp) + " supp every 6h\n        or\n" + getStringDosage(IbuprofenTotal, 6, IbuprofenMgSupp) + "supp every 4h";
+            String dosageText = getStringDosage(IbuprofenTotal, 4, IbuprofenMgSupp) + " supp every 6h\n          or\n" + getStringDosage(IbuprofenTotal, 6, IbuprofenMgSupp) + "supp every 4h";
             if (age < 7) {
-                dosageText = getStringDosage(IbuprofenTotal, 4, IbuprofenMgSupp) + " supp every 6h\n        or\n" + getStringDosage(IbuprofenTotal, 6, IbuprofenMgSupp) + " supp every 4h";
+                dosageText = getStringDosage(IbuprofenTotal, 4, IbuprofenMgSupp) + " supp every 6h\n          or\n" + getStringDosage(IbuprofenTotal, 6, IbuprofenMgSupp) + " supp every 4h";
             } else if (age >= 7 && age <= 12) {
-                dosageText = getStringDosage(IbuprofenTotal, 3, IbuprofenMgSupp) + " supp every 8h\n        or\n" + getStringDosage(IbuprofenTotal, 4, IbuprofenMgSupp) + " supp every 6h";
+                dosageText = getStringDosage(IbuprofenTotal, 3, IbuprofenMgSupp) + " supp every 8h\n          or\n" + getStringDosage(IbuprofenTotal, 4, IbuprofenMgSupp) + " supp every 6h";
             } else if (age > 12) {
-                dosageText = getStringDosage(IbuprofenTotal, 2, IbuprofenMgSupp) + " supp every 12h\n        or\n" + getStringDosage(IbuprofenTotal, 4, IbuprofenMgSupp) + " supp every 6h";
+                dosageText = getStringDosage(IbuprofenTotal, 2, IbuprofenMgSupp) + " supp every 12h\n          or\n" + getStringDosage(IbuprofenTotal, 4, IbuprofenMgSupp) + " supp every 6h";
             }
             text_view_id.setText(dosageText);
         }
 
         if (ibuprofen_way_of_giving.equals("syrup")) {
-            String dosageText = getStringDosageSyrup(IbuprofenTotal, 4, IbupMg, IbupMl) + " ml every 6h\n        or\n" + getStringDosageSyrup(IbuprofenTotal, 6, IbupMg, IbupMl) + "ml every 4h";
+            String dosageText = getStringDosageSyrup(IbuprofenTotal, 4, IbupMg, IbupMl) + " ml every 6h\n          or\n" + getStringDosageSyrup(IbuprofenTotal, 6, IbupMg, IbupMl) + "ml every 4h";
             if (age < 7) {
-                dosageText = getStringDosageSyrup(IbuprofenTotal, 4, IbupMg, IbupMl) + " ml every 6h\n        or\n" + getStringDosageSyrup(IbuprofenTotal, 6, IbupMg, IbupMl) + " ml every 4h";
+                dosageText = getStringDosageSyrup(IbuprofenTotal, 4, IbupMg, IbupMl) + " ml every 6h\n          or\n" + getStringDosageSyrup(IbuprofenTotal, 6, IbupMg, IbupMl) + " ml every 4h";
             } else if (age >= 7 && age <= 12) {
-                dosageText = getStringDosageSyrup(IbuprofenTotal, 3, IbupMg, IbupMl) + " ml every 8h\n        or\n" + getStringDosageSyrup(IbuprofenTotal, 4, IbupMg, IbupMl) + " ml every 6h";
+                dosageText = getStringDosageSyrup(IbuprofenTotal, 3, IbupMg, IbupMl) + " ml every 8h\n          or\n" + getStringDosageSyrup(IbuprofenTotal, 4, IbupMg, IbupMl) + " ml every 6h";
             } else if (age > 12) {
-                dosageText = getStringDosageSyrup(IbuprofenTotal, 2, IbupMg, IbupMl) + " ml every 12h\n        or\n" + getStringDosageSyrup(IbuprofenTotal, 4, IbupMg, IbupMl) + " ml every 6h";
+                dosageText = getStringDosageSyrup(IbuprofenTotal, 2, IbupMg, IbupMl) + " ml every 12h\n          or\n" + getStringDosageSyrup(IbuprofenTotal, 4, IbupMg, IbupMl) + " ml every 6h";
             }
             text_view_id.setText(dosageText);
         }

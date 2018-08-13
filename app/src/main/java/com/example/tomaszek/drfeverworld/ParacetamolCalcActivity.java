@@ -37,36 +37,36 @@ public class ParacetamolCalcActivity extends AppCompatActivity {
         String paracetamol_way_of_giving = intent.getStringExtra("paracetamol_way_of_giving");
 
         if (paracetamol_way_of_giving.equals("pills")) {
-            String dosageText = getStringDosage(ParacetamolTotal, 4, ParacMgPill) + " pill every 6h\n        or\n" + getStringDosage(ParacetamolTotal, 6, ParacMgPill) + "pill every 4h";
+            String dosageText = getStringDosage(ParacetamolTotal, 4, ParacMgPill) + " pill every 6h\n          or\n" + getStringDosage(ParacetamolTotal, 6, ParacMgPill) + "pill every 4h";
             if (age < 7) {
-                dosageText = getStringDosage(ParacetamolTotal, 4, ParacMgPill) + " pill every 6h\n        or\n" + getStringDosage(ParacetamolTotal, 6, ParacMgPill) + " pill every 4h";
+                dosageText = getStringDosage(ParacetamolTotal, 4, ParacMgPill) + " pill every 6h\n          or\n" + getStringDosage(ParacetamolTotal, 6, ParacMgPill) + " pill every 4h";
             } else if (age >= 7 && age <= 12) {
-                dosageText = getStringDosage(ParacetamolTotal, 3, ParacMgPill) + " pill every 8h\n        or\n" + getStringDosage(ParacetamolTotal, 4, ParacMgPill) + " pill every 6h";
+                dosageText = getStringDosage(ParacetamolTotal, 3, ParacMgPill) + " pill every 8h\n          or\n" + getStringDosage(ParacetamolTotal, 4, ParacMgPill) + " pill every 6h";
             } else if (age > 12) {
-                dosageText = getStringDosage(ParacetamolTotal, 2, ParacMgPill) + " pill every 12h\n        or\n" + getStringDosage(ParacetamolTotal, 4, ParacMgPill) + " pill every 6h";
+                dosageText = getStringDosage(ParacetamolTotal, 2, ParacMgPill) + " pill every 12h\n          or\n" + getStringDosage(ParacetamolTotal, 4, ParacMgPill) + " pill every 6h";
             }
             text_view_id.setText(dosageText);
         }
         if (paracetamol_way_of_giving.equals("supp")) {
-            String dosageText = getStringDosage(ParacetamolTotal, 4, ParacMgSupp) + " supp every 6h\n        or\n" + getStringDosage(ParacetamolTotal, 6, ParacMgSupp) + "supp every 4h";
+            String dosageText = getStringDosage(ParacetamolTotal, 4, ParacMgSupp) + " supp every 6h\n          or\n" + getStringDosage(ParacetamolTotal, 6, ParacMgSupp) + "supp every 4h";
             if (age < 7) {
-                dosageText = getStringDosage(ParacetamolTotal, 4, ParacMgSupp) + " supp every 6h\n        or\n" + getStringDosage(ParacetamolTotal, 6, ParacMgSupp) + " supp every 4h";
+                dosageText = getStringDosage(ParacetamolTotal, 4, ParacMgSupp) + " supp every 6h\n          or\n" + getStringDosage(ParacetamolTotal, 6, ParacMgSupp) + " supp every 4h";
             } else if (age >= 7 && age <= 12) {
-                dosageText = getStringDosage(ParacetamolTotal, 3, ParacMgSupp) + " supp every 8h\n        or\n" + getStringDosage(ParacetamolTotal, 4, ParacMgSupp) + " supp every 6h";
+                dosageText = getStringDosage(ParacetamolTotal, 3, ParacMgSupp) + " supp every 8h\n          or\n" + getStringDosage(ParacetamolTotal, 4, ParacMgSupp) + " supp every 6h";
             } else if (age > 12) {
-                dosageText = getStringDosage(ParacetamolTotal, 2, ParacMgSupp) + " supp every 12h\n        or\n" + getStringDosage(ParacetamolTotal, 4, ParacMgSupp) + " supp every 6h";
+                dosageText = getStringDosage(ParacetamolTotal, 2, ParacMgSupp) + " supp every 12h\n          or\n" + getStringDosage(ParacetamolTotal, 4, ParacMgSupp) + " supp every 6h";
             }
             text_view_id.setText(dosageText);
         }
 
         if (paracetamol_way_of_giving.equals("syrup")) {
-            String dosageText = getStringDosageSyrup(ParacetamolTotal, 4, ParacMg, ParacMl) + " ml every 6h\n        or\n" + getStringDosageSyrup(ParacetamolTotal, 6, ParacMg, ParacMl) + "ml every 4h";
+            String dosageText = getStringDosageSyrup(ParacetamolTotal, 4, ParacMg, ParacMl) + " ml every 6h\n          or\n" + getStringDosageSyrup(ParacetamolTotal, 6, ParacMg, ParacMl) + "ml every 4h";
             if (age < 7) {
-                dosageText = getStringDosageSyrup(ParacetamolTotal, 4, ParacMg, ParacMl) + " ml every 6h\n        or\n" + getStringDosageSyrup(ParacetamolTotal, 6, ParacMg, ParacMl) + " ml every 4h";
+                dosageText = getStringDosageSyrup(ParacetamolTotal, 4, ParacMg, ParacMl) + " ml every 6h\n          or\n" + getStringDosageSyrup(ParacetamolTotal, 6, ParacMg, ParacMl) + " ml every 4h";
             } else if (age >= 7 && age <= 12) {
-                dosageText = getStringDosageSyrup(ParacetamolTotal, 3, ParacMg, ParacMl) + " ml every 8h\n        or\n" + getStringDosageSyrup(ParacetamolTotal, 4, ParacMg, ParacMl) + " ml every 6h";
+                dosageText = getStringDosageSyrup(ParacetamolTotal, 3, ParacMg, ParacMl) + " ml every 8h\n          or\n" + getStringDosageSyrup(ParacetamolTotal, 4, ParacMg, ParacMl) + " ml every 6h";
             } else if (age > 12) {
-                dosageText = getStringDosageSyrup(ParacetamolTotal, 2, ParacMg, ParacMl) + " ml every 12h\n        or\n" + getStringDosageSyrup(ParacetamolTotal, 4, ParacMg, ParacMl) + " ml every 6h";
+                dosageText = getStringDosageSyrup(ParacetamolTotal, 2, ParacMg, ParacMl) + " ml every 12h\n          or\n" + getStringDosageSyrup(ParacetamolTotal, 4, ParacMg, ParacMl) + " ml every 6h";
             }
             text_view_id.setText(dosageText);
         }

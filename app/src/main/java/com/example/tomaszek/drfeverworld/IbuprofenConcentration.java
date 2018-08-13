@@ -37,8 +37,7 @@ public class IbuprofenConcentration extends AppCompatActivity {
                 SharedPreferences.Editor editor = sharedPref.edit();
                 editor.putInt("IbupMg", Integer.valueOf(IbupMg));
                 editor.putInt("IbupMl", Integer.valueOf(IbupMl));
-
-
+                editor.commit();
                 IbuprofenConcentration.this.startActivity(myIntent);
             }
         });
