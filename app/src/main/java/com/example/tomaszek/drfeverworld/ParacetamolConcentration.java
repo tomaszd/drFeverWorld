@@ -20,6 +20,15 @@ public class ParacetamolConcentration extends AppCompatActivity {
         final EditText editTextMg = (EditText) findViewById(R.id.editTextMg);
         final EditText editTextMl = (EditText) findViewById(R.id.editTextMl);
 
+
+        SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("MyPref", 0);
+        final SharedPreferences.Editor editor = sharedPref.edit();
+        int ParacMg = sharedPref.getInt("ParacMg", 100);
+        int ParacMl = sharedPref.getInt("ParacMl", 100);
+        editTextMg.setText(String.valueOf(ParacMg));
+        editTextMl.setText(String.valueOf(ParacMl));
+
+
         imageViewCalc.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 Intent myIntent = new Intent(ParacetamolConcentration.this, ParacetamolCalcActivity.class);
@@ -28,8 +37,8 @@ public class ParacetamolConcentration extends AppCompatActivity {
                 String Ml = editTextMl.getText().toString();
                 SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("MyPref", 0);
                 SharedPreferences.Editor editor = sharedPref.edit();
-                editor.putInt("Mg", Integer.valueOf(Mg));
-                editor.putInt("Ml", Integer.valueOf(Ml));
+                editor.putInt("ParacMg", Integer.valueOf(Mg));
+                editor.putInt("ParacMl", Integer.valueOf(Ml));
                 editor.commit();
                 ParacetamolConcentration.this.startActivity(myIntent);
             }
