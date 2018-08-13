@@ -29,13 +29,21 @@ public class IbuprofenCalcActivity extends AppCompatActivity {
         final TextView text_view_id = (TextView) findViewById(R.id.text_view_id);
 
         final ImageView imageViewHome = (ImageView) findViewById(R.id.imageViewHome);
-
         imageViewHome.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 Intent myIntent = new Intent(IbuprofenCalcActivity.this, MainActivity.class);
                 IbuprofenCalcActivity.this.startActivity(myIntent);
             }
         });
+
+        final ImageView imageViewInfo = (ImageView) findViewById(R.id.imageViewInfo);
+        imageViewInfo.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent myIntent = new Intent(IbuprofenCalcActivity.this, InformationActivity.class);
+                IbuprofenCalcActivity.this.startActivity(myIntent);
+            }
+        });
+
 
         SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0); // 0 - for private mode
         age = pref.getInt("age", 0); // getting Integer

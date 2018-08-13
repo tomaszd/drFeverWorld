@@ -34,6 +34,13 @@ public class ParacetamolCalcActivity extends AppCompatActivity {
             }
         });
 
+        final ImageView imageViewInfo = (ImageView) findViewById(R.id.imageViewInfo);
+        imageViewInfo.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent myIntent = new Intent(ParacetamolCalcActivity.this, InformationActivity.class);
+                ParacetamolCalcActivity.this.startActivity(myIntent);
+            }
+        });
 
         SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0); // 0 - for private mode
         age = pref.getInt("age", 0); // getting Integer

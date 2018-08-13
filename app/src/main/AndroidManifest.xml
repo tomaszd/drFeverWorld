@@ -59,6 +59,9 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".IbuprofenCalculationSuppActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InformationActivity"
             android:screenOrientation="portrait"></activity>
     </application>
 
