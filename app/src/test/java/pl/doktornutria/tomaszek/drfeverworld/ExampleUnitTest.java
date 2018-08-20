@@ -1,4 +1,4 @@
-package com.example.tomaszek.drfeverworld;
+package pl.doktornutria.tomaszek.drfeverworld;
 
 import org.junit.Test;
 

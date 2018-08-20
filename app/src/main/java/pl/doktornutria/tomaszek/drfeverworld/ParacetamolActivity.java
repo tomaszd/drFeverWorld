@@ -1,4 +1,4 @@
-package com.example.tomaszek.drfeverworld;
+package pl.doktornutria.tomaszek.drfeverworld;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -10,20 +10,21 @@ import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-public class IbuprofenActivity extends AppCompatActivity {
+public class ParacetamolActivity extends AppCompatActivity {
     int age = 0;
     int weight = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ibuprofen);
+        setContentView(R.layout.activity_paracetamol);
 
         final SeekBar seekBarWaga = (SeekBar) findViewById(R.id.seekBarWaga);
         final SeekBar seekBarWiek = (SeekBar) findViewById(R.id.seekBarWiek);
 
         final TextView textViewWiek = (TextView) findViewById(R.id.textViewWiek);
         final TextView textViewWaga = (TextView) findViewById(R.id.textViewWaga);
+
         final ImageView imageViewCalc = (ImageView) findViewById(R.id.imageViewCalc);
 
 
@@ -78,21 +79,18 @@ public class IbuprofenActivity extends AppCompatActivity {
 
         imageViewCalc.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
-                Intent myIntent = new Intent(IbuprofenActivity.this, IbuprofenDosageActivity.class);
+                Intent myIntent = new Intent(ParacetamolActivity.this, ParacetamolDosageActivity.class);
                 myIntent.putExtra("age", age);
                 myIntent.putExtra("weight", weight);
-
                 SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("MyPref", 0);
                 SharedPreferences.Editor editor = sharedPref.edit();
                 editor.putInt("age", age);
                 editor.putInt("weight", weight);
                 editor.commit();
-
-
-                IbuprofenActivity.this.startActivity(myIntent);
+                ParacetamolActivity.this.startActivity(myIntent);
             }
         });
 
     }
-
 }
+
