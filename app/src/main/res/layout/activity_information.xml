@@ -89,7 +89,7 @@
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="2"
-                android:src="@drawable/ibup_syr" />
+                android:src="@drawable/ibu_ok_transparent" />
 
             <Space
                 android:layout_width="0dp"
@@ -98,7 +98,7 @@
 
         </LinearLayout>
 
-        favikonka_fever_world2
+
 
     </LinearLayout>
 
