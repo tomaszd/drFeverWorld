@@ -93,6 +93,7 @@
                     android:textSize="@dimen/FontSizeConcentration"
                     android:digits="0123456789"
                     android:inputType="numberDecimal"
+                    android:imeOptions="actionDone"
                     android:hint="XXXX"/>
 
                 <TextView

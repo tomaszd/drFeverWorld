@@ -57,7 +57,9 @@ public class IbuprofenCalcActivity extends AppCompatActivity {
         Intent intent = getIntent();
 
         String ibuprofen_way_of_giving = intent.getStringExtra("ibuprofen_way_of_giving");
-
+        if (ibuprofen_way_of_giving == null) {
+            ibuprofen_way_of_giving = "syrup";
+        }
         if (ibuprofen_way_of_giving.equals("pills")) {
             String dosageText = getStringDosage(IbuprofenTotal, 4, IbuprofenMgPill) + " pill every 6h\n          or\n" + getStringDosage(IbuprofenTotal, 6, IbuprofenMgPill) + "pill every 4h";
             if (age < 7) {

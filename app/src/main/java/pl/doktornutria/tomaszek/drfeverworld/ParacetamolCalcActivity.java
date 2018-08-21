@@ -54,7 +54,10 @@ public class ParacetamolCalcActivity extends AppCompatActivity {
         Intent intent = getIntent();
 
         String paracetamol_way_of_giving = intent.getStringExtra("paracetamol_way_of_giving");
+        if (paracetamol_way_of_giving == null) {
+            paracetamol_way_of_giving = "syrup";
 
+        }
         if (paracetamol_way_of_giving.equals("pills")) {
             String dosageText = getStringDosage(ParacetamolTotal, 4, ParacMgPill) + " pill every 6h\n          or\n" + getStringDosage(ParacetamolTotal, 6, ParacMgPill) + "pill every 4h";
             if (age < 7) {

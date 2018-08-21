@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         final Button buttonParacetamol = (Button) findViewById(R.id.buttonParacetamol);
         final Button buttonIbuprofen = (Button) findViewById(R.id.buttonIbuprofen);
 

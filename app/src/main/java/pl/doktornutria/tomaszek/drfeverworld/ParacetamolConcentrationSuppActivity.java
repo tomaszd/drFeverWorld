@@ -5,6 +5,8 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -15,6 +17,7 @@ public class ParacetamolConcentrationSuppActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_paracetamol_concentration_supp);
+        final Animation shake = AnimationUtils.loadAnimation(this, R.anim.shake);
 
         final ImageView imageViewCalc = (ImageView) findViewById(R.id.imageViewCalc);
 
@@ -24,6 +27,7 @@ public class ParacetamolConcentrationSuppActivity extends AppCompatActivity {
         final SharedPreferences.Editor editor = sharedPref.edit();
         int Mg = sharedPref.getInt("ParacMgSupp", 100);
         editTextMg.setText(String.valueOf(Mg));
+        editTextMg.startAnimation(shake);
 
         imageViewCalc.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
