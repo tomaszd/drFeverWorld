@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import static java.lang.Math.min;
+
 public class IbuprofenDosageActivity extends AppCompatActivity {
 
     @Override
@@ -46,6 +48,18 @@ public class IbuprofenDosageActivity extends AppCompatActivity {
         int age = pref.getInt("age", 50); // getting Integer
         int weight = pref.getInt("weight", 50); // getting Integer
         int totalDosage = 10 * weight;
+
+
+        if (age <= 9 || weight <= 29) {
+            totalDosage = min(totalDosage, 600);
+        }
+        if ((age > 9 && age < 12) || (weight > 29 && weight < 39)) {
+            totalDosage = min(totalDosage, 800);
+        }
+
+        if (age > 12 || weight >= 39) {
+            totalDosage = min(totalDosage, 1200);
+        }
 
 
         String dosageText = String.valueOf(totalDosage / 4) + " mg every 6h\n or\n" + String.valueOf(totalDosage / 6) + " mg every 4h";

@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import static java.lang.Math.min;
+
 public class ParacetamolDosageActivity extends AppCompatActivity {
 
     @Override
@@ -66,6 +68,13 @@ public class ParacetamolDosageActivity extends AppCompatActivity {
         //dorosli -> 2/4 razy na dobe;
         //7-12 - 3, 4 razy na dobre
         //ponizej 7 -> co 4 , 6
+
+        if (age <= 12 || weight <= 39) {
+            totalDosage = min(totalDosage, 2000);
+        }
+        if (age > 12 || weight > 39) {
+            totalDosage = min(totalDosage, 4000);
+        }
 
         String dosageText = String.valueOf(totalDosage / 4) + " mg every 6h\n or\n" + String.valueOf(totalDosage / 6) + " mg every 4h";
         if (age < 7) {
