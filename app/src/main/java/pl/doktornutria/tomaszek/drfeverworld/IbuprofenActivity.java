@@ -5,6 +5,8 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.SeekBar;
@@ -19,12 +21,20 @@ public class IbuprofenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ibuprofen);
 
+        final Animation shake = AnimationUtils.loadAnimation(this, R.anim.shake);
+
         final SeekBar seekBarWaga = (SeekBar) findViewById(R.id.seekBarWaga);
         final SeekBar seekBarWiek = (SeekBar) findViewById(R.id.seekBarWiek);
 
         final TextView textViewWiek = (TextView) findViewById(R.id.textViewWiek);
         final TextView textViewWaga = (TextView) findViewById(R.id.textViewWaga);
         final ImageView imageViewCalc = (ImageView) findViewById(R.id.imageViewCalc);
+
+        final ImageView imageViewWaga = (ImageView) findViewById(R.id.imageViewWaga);
+        final ImageView imageViewAge_bez = (ImageView) findViewById(R.id.imageViewAge_bez);
+
+        imageViewWaga.startAnimation(shake);
+        imageViewAge_bez.startAnimation(shake);
 
 
         SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0); // 0 - for private mode
