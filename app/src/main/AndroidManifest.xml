@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="pl.doktornutria.tomaszek.drfeverworld.MainActivity"
+            android:name=".WelcomeActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,50 +20,54 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="pl.doktornutria.tomaszek.drfeverworld.IbuprofenActivity"
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".IbuprofenActivity"
             android:label="@string/title_activity_ibuprofen"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="pl.doktornutria.tomaszek.drfeverworld.ParacetamolActivity"
+            android:name=".ParacetamolActivity"
             android:label="@string/title_activity_paracetamol"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="pl.doktornutria.tomaszek.drfeverworld.ParacetamolDosageActivity"
+            android:name=".ParacetamolDosageActivity"
             android:label="@string/title_activity_paracetamol_dosage"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="pl.doktornutria.tomaszek.drfeverworld.IbuprofenDosageActivity"
+            android:name=".IbuprofenDosageActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="pl.doktornutria.tomaszek.drfeverworld.ParacetamolConcentration"
+            android:name=".ParacetamolConcentration"
             android:screenOrientation="portrait" />
         <activity
-            android:name="pl.doktornutria.tomaszek.drfeverworld.ParacetamolCalcActivity"
+            android:name=".ParacetamolCalcActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="pl.doktornutria.tomaszek.drfeverworld.IbuprofenConcentration"
+            android:name=".IbuprofenConcentration"
             android:screenOrientation="portrait" />
         <activity
-            android:name="pl.doktornutria.tomaszek.drfeverworld.IbuprofenCalcActivity"
+            android:name=".IbuprofenCalcActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="pl.doktornutria.tomaszek.drfeverworld.ParacetamolConcentrationPillsActivity"
+            android:name=".ParacetamolConcentrationPillsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="pl.doktornutria.tomaszek.drfeverworld.ParacetamolConcentrationSuppActivity"
+            android:name=".ParacetamolConcentrationSuppActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="pl.doktornutria.tomaszek.drfeverworld.IbuprofenConcentrationPillsActivity"
+            android:name=".IbuprofenConcentrationPillsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="pl.doktornutria.tomaszek.drfeverworld.IbuprofenCalculationSuppActivity"
+            android:name=".IbuprofenCalculationSuppActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="pl.doktornutria.tomaszek.drfeverworld.InformationActivity"
-            android:screenOrientation="portrait"></activity>
+            android:name=".InformationActivity"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

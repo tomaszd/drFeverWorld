@@ -8,7 +8,27 @@
             <set />
           </value>
         </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Github/FoodClicker/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Github/FoodClicker/app/src/main/java/com/doktornutria/tomaszek/foodclicker/LogActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Github/FoodClicker/app/src/main/res/layout/slide_screen1.xml">
           <value>
             <set />
           </value>
@@ -28,6 +48,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml">
           <value>
             <set />
@@ -43,6 +68,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/tomaszek/drfeverworld/IbuprofenCalcActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/tomaszek/drfeverworld/IbuprofenCalculationSuppActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/tomaszek/drfeverworld/IbuprofenConcentration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/tomaszek/drfeverworld/IbuprofenConcentrationPillsActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/tomaszek/drfeverworld/IbuprofenDosageActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/example/tomaszek/drfeverworld/MainActivity.java">
           <value>
             <set />
@@ -53,12 +103,102 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/tomaszek/drfeverworld/ParacetamolCalcActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/tomaszek/drfeverworld/ParacetamolConcentration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/tomaszek/drfeverworld/ParacetamolConcentrationPillsActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/tomaszek/drfeverworld/ParacetamolConcentrationSuppActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/IbuprofenCalcActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/IbuprofenCalculationSuppActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/IbuprofenConcentration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/IbuprofenConcentrationPillsActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/ParacetamolCalcActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/ParacetamolConcentration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/ParacetamolConcentrationPillsActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/ParacetamolConcentrationSuppActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/WelcomeActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/anim/shake.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/drawable/opis.txt">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_ibuprofen.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_ibuprofen_calculation_supp.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_ibuprofen_concentration.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_ibuprofen_concentration_pills.xml">
           <value>
             <set />
           </value>
@@ -78,7 +218,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_paracetamol_concentration.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_paracetamol_concentration_pills.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_paracetamol_concentration_supp.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_paracetamol_dosage.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml">
           <value>
             <set />
           </value>
@@ -98,6 +258,51 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/slide_screen1.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/slide_screen2.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/slide_screen3.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/slide_screen4.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/slide_screen5.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/slide_screen6.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/slide_screen7.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <value>
             <set />
@@ -113,6 +318,76 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-ereport/app/src/test/java/com/att/ngc/report/error/ErrorReportingServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-ereport/core/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-ereport/core/src/test/java/com/att/ngc/report/core/NewRelicAgentTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-ereport/core/src/test/java/com/att/ngc/report/core/PersistentQueueTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-ereport/core/src/test/java/com/att/ngc/report/core/ReportManagerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-ereport/libereport/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-ereport/libereport/src/main/java/com/att/ngc/report/ipc/model/error/ErrorMetricsParcel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-ereport/libereport/src/test/java/com/att/ngc/report/error/ErrorReporterTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-ereport/libereport/src/test/java/com/att/ngc/report/error/impl/ErrorReporterImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-ereport/libereport/src/test/java/com/att/ngc/report/error/impl/ErrorStorageTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-ereport/libereport/src/test/java/com/att/ngc/report/error/ipc/ServiceAdapterTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-ereport/libereport/src/test/java/com/att/ngc/report/ipc/model/MasterTransactionIdTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-ereport/libereport/src/test/java/com/att/ngc/report/model/error/ErrorMetricsObjectTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-ereport/libereport/src/testProd/java/com/att/ngc/report/error/ErrorReporterProdFlavorTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../ngc-log/build.gradle">
           <value>
             <set />
@@ -124,6 +399,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../ngc-log/log-reporting-service/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-log/log-reporting-service/src/main/java/com/att/ngc/logreporting/LogReportingServiceBootCompleteReceiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-log/log-reporting-tester/src/androidTest/java/com/att/ngc/logreportingtester/LogBugreportFallbackTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../ngc-log/log-reporting-tester/src/androidTest/java/com/att/ngc/logreportingtester/LogBugreportTest.java">
           <value>
             <set />
           </value>
@@ -144,6 +434,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../ngc-log/testingapp/src/androidTest/java/com/att/ngc/testingapp/LogTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../send_extended_newrelic_event/app/src/main/java/com/example/wojtek/extendednewrelicevent/MainActivity.java">
           <value>
             <set />
           </value>

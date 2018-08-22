@@ -68,7 +68,12 @@
 
         <Space
             android:layout_width="1dp"
-            android:layout_height="40dp" />
+            android:layout_height="20dp" />
+        <ImageView
+            android:id="@+id/imageViewInfo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_red_info" />
     </LinearLayout>
 
 

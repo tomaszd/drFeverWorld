@@ -1,4 +1,14 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="FontSizeConcentration">26dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">350dp</dimen>
+    <dimen name="slide_title">22dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="tutorial_image_width">320dp</dimen>
+    <dimen name="tutorial_image_height">420dp</dimen>
 </resources>
