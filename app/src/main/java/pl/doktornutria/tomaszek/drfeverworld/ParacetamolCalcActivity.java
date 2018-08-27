@@ -26,6 +26,7 @@ public class ParacetamolCalcActivity extends AppCompatActivity {
 
         final TextView text_view_id = (TextView) findViewById(R.id.text_view_id);
         final ImageView imageViewHome = (ImageView) findViewById(R.id.imageViewHome);
+        final TextView text_view_info = (TextView) findViewById(R.id.text_view_info);
 
         imageViewHome.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
@@ -68,6 +69,7 @@ public class ParacetamolCalcActivity extends AppCompatActivity {
                 dosageText = getStringDosage(ParacetamolTotal, 2, ParacMgPill) + " pill every 12h\n          or\n" + getStringDosage(ParacetamolTotal, 4, ParacMgPill) + " pill every 6h";
             }
             text_view_id.setText(dosageText);
+            text_view_info.setText("Your suggested SINGLE DOSE (mg) of PARACETAMOL is:");
         }
         if (paracetamol_way_of_giving.equals("supp")) {
             String dosageText = getStringDosage(ParacetamolTotal, 4, ParacMgSupp) + " supp every 6h\n          or\n" + getStringDosage(ParacetamolTotal, 6, ParacMgSupp) + "supp every 4h";
@@ -79,6 +81,7 @@ public class ParacetamolCalcActivity extends AppCompatActivity {
                 dosageText = getStringDosage(ParacetamolTotal, 2, ParacMgSupp) + " supp every 12h\n          or\n" + getStringDosage(ParacetamolTotal, 4, ParacMgSupp) + " supp every 6h";
             }
             text_view_id.setText(dosageText);
+            text_view_info.setText("Your suggested SINGLE DOSE (mg) of PARACETAMOL is:");
         }
 
         if (paracetamol_way_of_giving.equals("syrup")) {
@@ -91,6 +94,7 @@ public class ParacetamolCalcActivity extends AppCompatActivity {
                 dosageText = getStringDosageSyrup(ParacetamolTotal, 2, ParacMg, ParacMl) + " ml every 12h\n          or\n" + getStringDosageSyrup(ParacetamolTotal, 4, ParacMg, ParacMl) + " ml every 6h";
             }
             text_view_id.setText(dosageText);
+            text_view_info.setText("Your suggested SINGLE DOSE (ml) of PARACETAMOL is:");
         }
 
     }

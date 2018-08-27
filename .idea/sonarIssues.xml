@@ -123,6 +123,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/IbuprofenActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/IbuprofenCalcActivity.java">
           <value>
             <set />
@@ -143,7 +148,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/IbuprofenDosageActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/ParacetamolActivity.java">
           <value>
             <set />
           </value>
@@ -168,6 +183,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/ParacetamolDosageActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/pl/doktornutria/tomaszek/drfeverworld/WelcomeActivity.java">
           <value>
             <set />
@@ -184,6 +204,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_ibuprofen.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_ibuprofen_calc.xml">
           <value>
             <set />
           </value>
@@ -214,6 +239,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_paracetamol.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_paracetamol_calc.xml">
           <value>
             <set />
           </value>
