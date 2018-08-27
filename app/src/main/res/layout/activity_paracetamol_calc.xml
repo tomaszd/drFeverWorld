@@ -56,10 +56,14 @@
                 android:layout_weight="3" />
         </LinearLayout>
 
-        <Space
-            android:layout_width="0dp"
+        <TextView
+            android:id="@+id/text_view_info"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:fontFamily="casual"
+            android:textColor="@color/colorBBlack"
+            android:text="Your suggested SINGLE DOSE (mg) of PARACETAMOL is:"
+            android:textSize="14dp"/>
 
         <LinearLayout
             android:id="@+id/linearConcentration"

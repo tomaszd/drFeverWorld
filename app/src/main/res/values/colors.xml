@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryDark">#3589A1</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorIbuprofen">#f92121</color>
     <color name="colorParacetamol">#0c9b96</color>
-    <color name="colorBackground">#3589a1</color>
+    <color name="colorBackground">#3589A1</color>
+    <color name="colorBBlack">#000000</color>
     <!-- Screens background color-->
     <color name="bg_slider_screen1">#f4b241</color>
     <color name="bg_slider_screen2">#16bc7d</color>

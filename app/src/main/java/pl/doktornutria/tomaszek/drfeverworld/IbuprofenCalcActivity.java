@@ -27,8 +27,9 @@ public class IbuprofenCalcActivity extends AppCompatActivity {
 
 
         final TextView text_view_id = (TextView) findViewById(R.id.text_view_id);
-
+        final TextView text_view_info = (TextView) findViewById(R.id.text_view_info);
         final ImageView imageViewHome = (ImageView) findViewById(R.id.imageViewHome);
+
         imageViewHome.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 Intent myIntent = new Intent(IbuprofenCalcActivity.this, MainActivity.class);
@@ -70,6 +71,7 @@ public class IbuprofenCalcActivity extends AppCompatActivity {
                 dosageText = getStringDosage(IbuprofenTotal, 2, IbuprofenMgPill) + " pill every 12h\n          or\n" + getStringDosage(IbuprofenTotal, 4, IbuprofenMgPill) + " pill every 6h";
             }
             text_view_id.setText(dosageText);
+            text_view_info.setText("Your suggested SINGLE DOSE (mg) of IBUPROFEN is:");
         }
         if (ibuprofen_way_of_giving.equals("supp")) {
             String dosageText = getStringDosage(IbuprofenTotal, 4, IbuprofenMgSupp) + " supp every 6h\n          or\n" + getStringDosage(IbuprofenTotal, 6, IbuprofenMgSupp) + "supp every 4h";
@@ -81,6 +83,7 @@ public class IbuprofenCalcActivity extends AppCompatActivity {
                 dosageText = getStringDosage(IbuprofenTotal, 2, IbuprofenMgSupp) + " supp every 12h\n          or\n" + getStringDosage(IbuprofenTotal, 4, IbuprofenMgSupp) + " supp every 6h";
             }
             text_view_id.setText(dosageText);
+            text_view_info.setText("Your suggested SINGLE DOSE (mg) of IBUPROFEN is:");
         }
 
         if (ibuprofen_way_of_giving.equals("syrup")) {
@@ -93,6 +96,7 @@ public class IbuprofenCalcActivity extends AppCompatActivity {
                 dosageText = getStringDosageSyrup(IbuprofenTotal, 2, IbupMg, IbupMl) + " ml every 12h\n          or\n" + getStringDosageSyrup(IbuprofenTotal, 4, IbupMg, IbupMl) + " ml every 6h";
             }
             text_view_id.setText(dosageText);
+            text_view_info.setText("Your suggested SINGLE DOSE (ml) of IBUPROFEN is:");
         }
 
     }
