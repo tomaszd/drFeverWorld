@@ -26,6 +26,7 @@ public class ParacetamolCalcActivity extends AppCompatActivity {
 
         final TextView text_view_id = (TextView) findViewById(R.id.text_view_id);
         final ImageView imageViewHome = (ImageView) findViewById(R.id.imageViewHome);
+        final TextView text_view_total = (TextView) findViewById(R.id.text_view_total);
         final TextView text_view_info = (TextView) findViewById(R.id.text_view_info);
 
         imageViewHome.setOnClickListener(new Button.OnClickListener() {
@@ -53,6 +54,9 @@ public class ParacetamolCalcActivity extends AppCompatActivity {
         ParacetamolTotal = pref.getInt("ParacetamolTotal", 0); // getting Integer
 
         Intent intent = getIntent();
+
+
+        text_view_total.setText("Your suggested summary daily dose is "+String.valueOf(ParacetamolTotal)+" mg");
 
         String paracetamol_way_of_giving = intent.getStringExtra("paracetamol_way_of_giving");
         if (paracetamol_way_of_giving == null) {

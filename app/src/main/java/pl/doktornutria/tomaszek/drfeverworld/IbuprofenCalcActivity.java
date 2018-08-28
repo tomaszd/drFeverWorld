@@ -27,7 +27,9 @@ public class IbuprofenCalcActivity extends AppCompatActivity {
 
 
         final TextView text_view_id = (TextView) findViewById(R.id.text_view_id);
+        final TextView text_view_total = (TextView) findViewById(R.id.text_view_total);
         final TextView text_view_info = (TextView) findViewById(R.id.text_view_info);
+
         final ImageView imageViewHome = (ImageView) findViewById(R.id.imageViewHome);
 
         imageViewHome.setOnClickListener(new Button.OnClickListener() {
@@ -56,6 +58,12 @@ public class IbuprofenCalcActivity extends AppCompatActivity {
         IbuprofenTotal = pref.getInt("IbuprofenTotal", 0); // getting Integer
 
         Intent intent = getIntent();
+
+
+
+
+        text_view_total.setText("Your suggested summary daily dose is "+String.valueOf(IbuprofenTotal)+" mg");
+
 
         String ibuprofen_way_of_giving = intent.getStringExtra("ibuprofen_way_of_giving");
         if (ibuprofen_way_of_giving == null) {

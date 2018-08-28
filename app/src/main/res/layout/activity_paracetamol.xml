@@ -23,7 +23,8 @@
             android:layout_height="1dp" />
 
         <LinearLayout
-            android:id="@+id/linearRibbon"            android:layout_width="match_parent"
+            android:id="@+id/linearRibbon"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal|center_vertical"
             android:orientation="horizontal">
