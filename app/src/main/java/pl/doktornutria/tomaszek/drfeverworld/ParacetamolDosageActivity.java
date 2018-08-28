@@ -63,7 +63,7 @@ public class ParacetamolDosageActivity extends AppCompatActivity {
          opakowaniu, w miejscu niedostępnym i niewidocznym dla dzieci, zgodnie z wymogami producenta.
          */
 
-        int totalDosage = 15 * weight;
+        int totalDosage = 60 * weight;
 
         //dorosli -> 2/4 razy na dobe;
         //7-12 - 3, 4 razy na dobre
