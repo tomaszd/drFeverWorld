@@ -10,6 +10,12 @@
     <string name="next">NEXT</string>
     <string name="skip">SKIP</string>
     <string name="start">GOT IT</string>
+    <string name="drug_concentration">DRUG CONCENTRATION</string>
+    <string name="dr_fever_paracetamol_and_ibuprofen_is_a_dose_calculation_tool_for_administering_the_most_popular_antypyretics_n">Dr Fever - Paracetamol and Ibuprofen is a dose calculation tool for administering the most popular antypyretics</string>
+    <string name="the_recommended_dose_is_informative_and_is_calculated_in_accordance_with_the_age_and_weight_indications_n">The recommended dose is informative and is calculated in accordance with the age and weight indications</string>
+    <string name="remember_to_read_the_instructions_in_the_package_leaftlet_that_comes_with_the_medicine_n">Remember to read the instructions in the package leaftlet that comes with the medicine.</string>
+    <string name="your_suggested_summary_daily_dose_is_123_mg">Your suggested summary daily dose is 123 mg</string>
+    <string name="your_suggested_single_dose_mg_of_paracetamol_is">Your suggested SINGLE DOSE (mg) of PARACETAMOL is:</string>
 
 </resources>
 
