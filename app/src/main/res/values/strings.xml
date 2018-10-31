@@ -18,6 +18,11 @@
     <string name="your_suggested_single_dose_mg_of_paracetamol_is">Your suggested SINGLE DOSE (mg) of PARACETAMOL is:</string>
     <string name="your_suggested_single_dose_mg_of_ibuprofen_is">Your suggested SINGLE DOSE (mg) of IBUPROFEN is:</string>
     <string name="years">years</string>
+    <string name="your_suggester_single_dose_ibuprofen">Your suggested SINGLE DOSE (mg) of IBUPROFEN is:</string>
+    <string name="pill">pill</string>
+    <string name="every">every</string>
+    <string name="supp">supp</string>
+    <string name="single_dose_paracetamol">Your suggested SINGLE DOSE (mg) of PARACETAMOL is:</string>
 
 </resources>
 
