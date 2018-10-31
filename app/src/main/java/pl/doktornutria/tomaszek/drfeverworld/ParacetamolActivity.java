@@ -41,7 +41,7 @@ public class ParacetamolActivity extends AppCompatActivity {
         weight = pref.getInt("weight", 50); // getting Integer
         seekBarWaga.setProgress(weight);
         seekBarWiek.setProgress(age);
-        textViewWiek.setText(age + "\nyears");
+        textViewWiek.setText(age + "\n" + getString(R.string.years));
         textViewWaga.setText(weight + "\nkg");
 
 
@@ -72,7 +72,7 @@ public class ParacetamolActivity extends AppCompatActivity {
             public void onProgressChanged(SeekBar seekBar, int progresValue, boolean fromUser) {
                 progress = progresValue;
                 age = progresValue;
-                textViewWiek.setText(progress + "\nyears");
+                textViewWiek.setText(progress + "\n" + getString(R.string.years));
             }
 
             @Override
@@ -81,7 +81,7 @@ public class ParacetamolActivity extends AppCompatActivity {
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                textViewWiek.setText(progress + "\nyears");
+                textViewWiek.setText(progress + "\n" + getString(R.string.years));
             }
         });
 
