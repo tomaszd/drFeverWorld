@@ -60,7 +60,7 @@ public class IbuprofenCalcActivity extends AppCompatActivity {
         Intent intent = getIntent();
 
 
-        text_view_total.setText("Your suggested summary daily dose is " + String.valueOf(IbuprofenTotal) + " mg");
+        text_view_total.setText(getString(R.string.suggested_summary_daily_dose) + " " + String.valueOf(IbuprofenTotal) + " mg");
 
 
         String ibuprofen_way_of_giving = intent.getStringExtra("ibuprofen_way_of_giving");
