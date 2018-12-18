@@ -76,13 +76,13 @@ public class ParacetamolDosageActivity extends AppCompatActivity {
             totalDosage = min(totalDosage, 4000);
         }
 
-        String dosageText = String.valueOf(totalDosage / 4) + " mg " + R.string.every + "  6h\n or\n" + String.valueOf(totalDosage / 6) + " mg " + R.string.every + "  4h";
+        String dosageText = String.valueOf(totalDosage / 4) + " mg " + getString(R.string.every) + "  6h\n or\n" + String.valueOf(totalDosage / 6) + " mg " + getString(R.string.every) + "  4h";
         if (age < 7) {
-            dosageText = String.valueOf(totalDosage / 4) + " mg " + R.string.every + "  6h\n or\n" + String.valueOf(totalDosage / 6) + " mg " + R.string.every + "  4h";
+            dosageText = String.valueOf(totalDosage / 4) + " mg " + getString(R.string.every) + "  6h\n or\n" + String.valueOf(totalDosage / 6) + " mg " + getString(R.string.every) + "  4h";
         } else if (age >= 7 && age <= 12) {
-            dosageText = String.valueOf(totalDosage / 3) + " mg " + R.string.every + "  8h\n or\n" + String.valueOf(totalDosage / 4) + " mg " + R.string.every + "  6h";
+            dosageText = String.valueOf(totalDosage / 3) + " mg " + getString(R.string.every) + "  8h\n or\n" + String.valueOf(totalDosage / 4) + " mg " + getString(R.string.every) + "  6h";
         } else if (age > 12) {
-            dosageText = String.valueOf(totalDosage / 2) + " mg " + R.string.every + "  12h\n or\n" + String.valueOf(totalDosage / 4) + " mg " + R.string.every + "  6h";
+            dosageText = String.valueOf(totalDosage / 2) + " mg " + getString(R.string.every) + "  12h\n or\n" + String.valueOf(totalDosage / 4) + " mg " + getString(R.string.every) + "  6h";
         }
         buttonParacetamolDosage.setText(dosageText);
         SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("MyPref", 0);
