@@ -23,7 +23,7 @@
     <string name="or">or</string>
     <string name="supp">supp</string>
     <string name="single_dose_paracetamol">Your suggested SINGLE DOSE (mg) of PARACETAMOL is:</string>
-    <string name="suggested_summary_daily_dose">Your suggested summary daily dose is</string>
+    <string name="suggested_summary_daily_dose">Suggested summary daily dose is</string>
 
 </resources>
 
