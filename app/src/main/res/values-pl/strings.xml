@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">DrFever-Paracetamol&amp;Ibuprofen (ENGLISH)</string>
     <string name="select_drug">Wybierz lek</string>
-    <string name="app_description"> Zalecana dawka ma charakter informacyjny i jest obliczana zgodnie ze wskazaniami wieku i masy ciała. Pamiętaj, aby przeczytać instrukcje w ulotce dla pacjenta dołączonej do leku. W razie wątpliwości skonsultuj się z lekarzem lub farmaceutą. Aplikacja ma charakter informacyjny i nie może zastąpić konsultacji w gabinecie lekarskim Dr Fever-Paracetamol Ibuprofen jest narzędziem do obliczania dawki do podawania najpopularniejszych leków przeciwgorączkowych</string>
     <string name="title_activity_ibuprofen">IbuprofenActivity</string>
     <string name="title_activity_paracetamol">ParacetamolActivity</string>
     <string name="title_activity_paracetamol_dosage">ParacetamolDosageActivity</string>
@@ -24,6 +23,7 @@
     <string name="supp">czopek</string>
     <string name="single_dose_paracetamol">Twoja zalecana POJEDYNCZA DAWKA (mg)  PARACETAMOLU  to:</string>
     <string name="suggested_summary_daily_dose">Twoja zalecana dawka to:</string>
+    <string name="app_description"> Zalecana dawka ma charakter informacyjny i jest obliczana zgodnie ze wskazaniami wieku i masy ciała. Pamiętaj, aby przeczytać instrukcje w ulotce dla pacjenta dołączonej do leku. W razie wątpliwości skonsultuj się z lekarzem lub farmaceutą. Aplikacja ma charakter informacyjny i nie może zastąpić konsultacji w gabinecie lekarskim Dr Fever-Paracetamol Ibuprofen jest narzędziem do obliczania dawki do podawania najpopularniejszych leków przeciwgorączkowych</string>
 </resources>
 
 

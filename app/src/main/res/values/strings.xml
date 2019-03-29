@@ -5,7 +5,6 @@
     <string name="title_activity_ibuprofen">IbuprofenActivity</string>
     <string name="title_activity_paracetamol">ParacetamolActivity</string>
     <string name="title_activity_paracetamol_dosage">ParacetamolDosageActivity</string>
-
     <string name="title_activity_welcome">Home Screen</string>
     <string name="next">NEXT</string>
     <string name="skip">SKIP</string>
