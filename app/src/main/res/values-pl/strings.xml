@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">DrFever-Paracetamol&amp;Ibuprofen (ENGLISH)</string>
+    <string name="select_drug">Wybierz lek</string>
+    <string name="app_description"> Zalecana dawka ma charakter informacyjny i jest obliczana zgodnie ze wskazaniami wieku i masy ciała. Pamiętaj, aby przeczytać instrukcje w ulotce dla pacjenta dołączonej do leku. W razie wątpliwości skonsultuj się z lekarzem lub farmaceutą. Aplikacja ma charakter informacyjny i nie może zastąpić konsultacji w gabinecie lekarskim Dr Fever-Paracetamol Ibuprofen jest narzędziem do obliczania dawki do podawania najpopularniejszych leków przeciwgorączkowych</string>
+    <string name="title_activity_ibuprofen">IbuprofenActivity</string>
+    <string name="title_activity_paracetamol">ParacetamolActivity</string>
+    <string name="title_activity_paracetamol_dosage">ParacetamolDosageActivity</string>
+    <string name="title_activity_welcome">Ekran główny</string>
+    <string name="next">NASTĘPNY</string>
+    <string name="skip">POMIŃ</string>
+    <string name="start">OK, ZROZUMIAŁEM</string>
+    <string name="drug_concentration">STĘŻENIE LEKU</string>
+    <string name="dr_fever_paracetamol_and_ibuprofen_is_a_dose_calculation_tool_for_administering_the_most_popular_antypyretics_n">Dr Fever-Paracetamol i  Ibuprofen jest narzędziem do obliczania dawki najpopularniejszych leków przeciwgorączkowych</string>
+    <string name="the_recommended_dose_is_informative_and_is_calculated_in_accordance_with_the_age_and_weight_indications_n">Zalecana dawka ma charakter informacyjny i jest obliczana zgodnie ze wskazaniami wieku i masy ciała.</string>
+    <string name="remember_to_read_the_instructions_in_the_package_leaftlet_that_comes_with_the_medicine_n">Pamiętaj, aby przeczytać instrukcje w ulotce dla pacjenta dołączonej do leku. W razie wątpliwości skonsultuj się z lekarzem lub farmaceutą</string>
+    <string name="your_suggested_summary_daily_dose_is_123_mg">Twoja zalecana dzienna dawka to 123 mg</string>
+    <string name="your_suggested_single_dose_mg_of_paracetamol_is">Twoja zalecana POJEDYNCZA DAWKA (mg) PARACETAMOLU to</string>
+    <string name="your_suggested_single_dose_mg_of_ibuprofen_is">Twoja zalecana POJEDYNCZA DAWKA (mg) IBUPROFENU to</string>
+    <string name="years">lata</string>
+    <string name="your_suggester_single_dose_ibuprofen">Twoja zalecana POJEDYNCZA DAWKA (mg)  IBUPROFENU to:</string>
+    <string name="pill">tabletka</string>
+    <string name="every">każde</string>
+    <string name="or">lub</string>
+    <string name="supp">czopek</string>
+    <string name="single_dose_paracetamol">Twoja zalecana POJEDYNCZA DAWKA (mg)  PARACETAMOLU  to:</string>
+    <string name="suggested_summary_daily_dose">Twoja zalecana dawka to:</string>
+</resources>
+
+
+
