@@ -24,6 +24,8 @@
     <string name="supp">supp</string>
     <string name="single_dose_paracetamol">Your suggested SINGLE DOSE (mg) of PARACETAMOL is:</string>
     <string name="suggested_summary_daily_dose">Suggested summary daily dose is</string>
+    <string name="mg_1_supp">mg / 1 SUPP</string>
+    <string name="mg_1_pill">mg / 1 PILL</string>
 
 </resources>
 
