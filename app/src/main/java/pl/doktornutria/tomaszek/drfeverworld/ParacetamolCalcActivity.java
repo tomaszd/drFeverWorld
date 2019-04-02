@@ -70,7 +70,7 @@ public class ParacetamolCalcActivity extends AppCompatActivity {
             } else if (age >= 7 && age <= 12) {
                 dosageText = getStringDosage(ParacetamolTotal, 4, ParacMgPill) + " " + getString(R.string.pill) + " " + getString(R.string.every) + " 6h\n          "+ getString(R.string.or) +"\n" + getStringDosage(ParacetamolTotal, 6, ParacMgPill) + " " + getString(R.string.pill) + " " + getString(R.string.every) + " 4h";
             } else if (age > 12) {
-                dosageText = getStringDosage(ParacetamolTotal, 3, ParacMgPill) + " " + getString(R.string.pill) + " " + getString(R.string.every) + " 8h\n          "+ getString(R.string.or) +"\n" + getStringDosage(ParacetamolTotal, 3, ParacMgPill) + " " + getString(R.string.pill) + " " + getString(R.string.every) + " 8h";
+                dosageText = getStringDosage(ParacetamolTotal, 4, ParacMgPill) + " " + getString(R.string.pill) + " " + getString(R.string.every) + " 6h\n          "+ getString(R.string.or) +"\n" + getStringDosage(ParacetamolTotal, 6, ParacMgPill) + " " + getString(R.string.pill) + " " + getString(R.string.every) + " 4h";
             }
             text_view_id.setText(dosageText);
             text_view_info.setText(R.string.single_dose_paracetamol);
@@ -82,7 +82,7 @@ public class ParacetamolCalcActivity extends AppCompatActivity {
             } else if (age >= 7 && age <= 12) {
                 dosageText = getStringDosage(ParacetamolTotal, 4, ParacMgSupp) + " " + getString(R.string.supp) + " " + getString(R.string.every) + " 6h\n          "+ getString(R.string.or) +"\n" + getStringDosage(ParacetamolTotal, 6, ParacMgSupp) + " " + getString(R.string.supp) + " " + getString(R.string.every) + " 4h";
             } else if (age > 12) {
-                dosageText = getStringDosage(ParacetamolTotal, 3, ParacMgSupp) + " " + getString(R.string.supp) + " " + getString(R.string.every) + " 12h\n          "+ getString(R.string.or) +"\n" + getStringDosage(ParacetamolTotal, 3, ParacMgSupp) + " " + getString(R.string.supp) + " " + getString(R.string.every) + " 8h";
+                dosageText = getStringDosage(ParacetamolTotal, 4, ParacMgSupp) + " " + getString(R.string.supp) + " " + getString(R.string.every) + " 6h\n          "+ getString(R.string.or) +"\n" + getStringDosage(ParacetamolTotal, 6, ParacMgSupp) + " " + getString(R.string.supp) + " " + getString(R.string.every) + " 4h";
             }
             text_view_id.setText(dosageText);
             text_view_info.setText(R.string.single_dose_paracetamol);
@@ -95,7 +95,7 @@ public class ParacetamolCalcActivity extends AppCompatActivity {
             } else if (age >= 7 && age <= 12) {
                 dosageText = getStringDosageSyrup(ParacetamolTotal, 4, ParacMg, ParacMl) + " ml " + getString(R.string.every) + " 6h\n          "+ getString(R.string.or) +"\n" + getStringDosageSyrup(ParacetamolTotal, 6, ParacMg, ParacMl) + " ml " + getString(R.string.every) + " 4h";
             } else if (age > 12) {
-                dosageText = getStringDosageSyrup(ParacetamolTotal, 3, ParacMg, ParacMl) + " ml " + getString(R.string.every) + " 8h\n          "+ getString(R.string.or) +"\n" + getStringDosageSyrup(ParacetamolTotal, 3, ParacMg, ParacMl) + " ml " + getString(R.string.every) + " 8h";
+                dosageText = getStringDosageSyrup(ParacetamolTotal, 4, ParacMg, ParacMl) + " ml " + getString(R.string.every) + " 6h\n          "+ getString(R.string.or) +"\n" + getStringDosageSyrup(ParacetamolTotal, 6, ParacMg, ParacMl) + " ml " + getString(R.string.every) + " 4h";
             }
             text_view_id.setText(dosageText);
             text_view_info.setText(R.string.single_dose_paracetamol);

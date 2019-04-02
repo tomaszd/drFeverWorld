@@ -65,14 +65,16 @@ public class ParacetamolDosageActivity extends AppCompatActivity {
 
         int totalDosage = 60 * weight;
 
+
+        //totalDosage=weight * 15;  weight * 15 /mg /kg
+
         //dorosli -> 2/4 razy na dobe;
         //7-12 - 3, 4 razy na dobre
         //ponizej 7 -> co 4 , 6
 
         if (age <= 12 || weight <= 39) {
             totalDosage = min(totalDosage, 2000);
-        }
-        if (age > 12 || weight > 39) {
+        } else {
             totalDosage = min(totalDosage, 4000);
         }
 
@@ -82,7 +84,7 @@ public class ParacetamolDosageActivity extends AppCompatActivity {
         } else if (age >= 7 && age <= 12) {
             dosageText = String.valueOf(totalDosage / 3) + " mg " + getString(R.string.every) + "  8h\n   " + getString(R.string.or) + "\n" + String.valueOf(totalDosage / 4) + " mg " + getString(R.string.every) + "  6h";
         } else if (age > 12) {
-            dosageText = String.valueOf(totalDosage / 2) + " mg " + getString(R.string.every) + "  12h\n   " + getString(R.string.or) + "\n" + String.valueOf(totalDosage / 4) + " mg " + getString(R.string.every) + "  6h";
+            dosageText = String.valueOf(totalDosage / 6) + " mg " + getString(R.string.every) + "  4h\n   " + getString(R.string.or) + "\n" + String.valueOf(totalDosage / 4) + " mg " + getString(R.string.every) + "  6h";
         }
         buttonParacetamolDosage.setText(dosageText);
         SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("MyPref", 0);

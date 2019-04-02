@@ -74,7 +74,7 @@ public class IbuprofenCalcActivity extends AppCompatActivity {
             } else if (age >= 7 && age <= 12) {
                 dosageText = getStringDosage(IbuprofenTotal, 4, IbuprofenMgPill) + " " + getString(R.string.pill) + " " + getString(R.string.every) + " 6h\n          "+ getString(R.string.or) +"\n" + getStringDosage(IbuprofenTotal, 3, IbuprofenMgPill) + " " + getString(R.string.pill) + " " + getString(R.string.every) + " 8h";
             } else if (age > 12) {
-                dosageText = getStringDosage(IbuprofenTotal, 2, IbuprofenMgPill) + " " + getString(R.string.pill) + " " + getString(R.string.every) + " 12h\n          "+ getString(R.string.or) +"\n" + getStringDosage(IbuprofenTotal, 3, IbuprofenMgPill) + " " + getString(R.string.pill) + " " + getString(R.string.every) + " 8h";
+                dosageText = getStringDosage(IbuprofenTotal, 3, IbuprofenMgPill) + " " + getString(R.string.pill) + " " + getString(R.string.every) + " 8h\n          "+ getString(R.string.or) +"\n" + getStringDosage(IbuprofenTotal, 4, IbuprofenMgPill) + " " + getString(R.string.pill) + " " + getString(R.string.every) + " 6h";
             }
             text_view_id.setText(dosageText);
             text_view_info.setText(R.string.your_suggester_single_dose_ibuprofen);
@@ -86,20 +86,20 @@ public class IbuprofenCalcActivity extends AppCompatActivity {
             } else if (age >= 7 && age <= 12) {
                 dosageText = getStringDosage(IbuprofenTotal, 4, IbuprofenMgSupp) + " " + getString(R.string.supp) + " " + getString(R.string.every) + " 6h\n          "+ getString(R.string.or) +"\n" + getStringDosage(IbuprofenTotal, 3, IbuprofenMgSupp) + " " + getString(R.string.supp) + " " + getString(R.string.every) + " 8h";
             } else if (age > 12) {
-                dosageText = getStringDosage(IbuprofenTotal, 2, IbuprofenMgSupp) + " " + getString(R.string.supp) + " " + getString(R.string.every) + " 12h\n          "+ getString(R.string.or) +"\n" + getStringDosage(IbuprofenTotal, 3, IbuprofenMgSupp) + " " + getString(R.string.supp) + " " + getString(R.string.every) + " 8h";
+                dosageText = getStringDosage(IbuprofenTotal, 3, IbuprofenMgSupp) + " " + getString(R.string.supp) + " " + getString(R.string.every) + " 8h\n          "+ getString(R.string.or) +"\n" + getStringDosage(IbuprofenTotal, 4, IbuprofenMgSupp) + " " + getString(R.string.supp) + " " + getString(R.string.every) + " 6h";
             }
             text_view_id.setText(dosageText);
             text_view_info.setText(R.string.your_suggester_single_dose_ibuprofen);
         }
 
         if (ibuprofen_way_of_giving.equals("syrup")) {
-            String dosageText = getStringDosageSyrup(IbuprofenTotal, 4, IbupMg, IbupMl) + " ml " + getString(R.string.every) + " 6h\n          "+ getString(R.string.or) +"\n" + getStringDosageSyrup(IbuprofenTotal, 3, IbupMg, IbupMl) + "ml " + getString(R.string.every) + " 4h";
+            String dosageText = getStringDosageSyrup(IbuprofenTotal, 4, IbupMg, IbupMl) + " ml " + getString(R.string.every) + " 6h\n          "+ getString(R.string.or) +"\n" + getStringDosageSyrup(IbuprofenTotal, 3, IbupMg, IbupMl) + "ml " + getString(R.string.every) + " 8h";
             if (age < 7) {
                 dosageText = getStringDosageSyrup(IbuprofenTotal, 4, IbupMg, IbupMl) + " ml " + getString(R.string.every) + " 6h\n          "+ getString(R.string.or) +"\n" + getStringDosageSyrup(IbuprofenTotal, 3, IbupMg, IbupMl) + " ml " + getString(R.string.every) + " 8h";
             } else if (age >= 7 && age <= 12) {
                 dosageText = getStringDosageSyrup(IbuprofenTotal, 4, IbupMg, IbupMl) + " ml " + getString(R.string.every) + " 68h\n          "+ getString(R.string.or) +"\n" + getStringDosageSyrup(IbuprofenTotal, 3, IbupMg, IbupMl) + " ml " + getString(R.string.every) + " 8h";
             } else if (age > 12) {
-                dosageText = getStringDosageSyrup(IbuprofenTotal, 2, IbupMg, IbupMl) + " ml " + getString(R.string.every) + " 12h\n          "+ getString(R.string.or) +"\n" + getStringDosageSyrup(IbuprofenTotal, 3, IbupMg, IbupMl) + " ml " + getString(R.string.every) + " 8h";
+                dosageText = getStringDosageSyrup(IbuprofenTotal, 3, IbupMg, IbupMl) + " ml " + getString(R.string.every) + " 8h\n          "+ getString(R.string.or) +"\n" + getStringDosageSyrup(IbuprofenTotal, 4, IbupMg, IbupMl) + " ml " + getString(R.string.every) + " 6h";
             }
             text_view_id.setText(dosageText);
             text_view_info.setText(R.string.your_suggester_single_dose_ibuprofen);
