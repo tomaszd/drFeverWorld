@@ -24,7 +24,7 @@ public class IbuprofenConcentrationPillsActivity extends AppCompatActivity {
 
         SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("MyPref", 0);
         final SharedPreferences.Editor editor = sharedPref.edit();
-        int Mg = sharedPref.getInt("IbuprofenMgPill", 100);
+        int Mg = sharedPref.getInt("IbuprofenMgPill", 200);
         editTextMg.setText(String.valueOf(Mg));
 
         editTextMg.startAnimation(shake);

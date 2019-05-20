@@ -26,8 +26,8 @@ public class IbuprofenConcentration extends AppCompatActivity {
         final EditText editTextMl = (EditText) findViewById(R.id.editTextMl);
         SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("MyPref", 0);
         final SharedPreferences.Editor editor = sharedPref.edit();
-        int IbupMg = sharedPref.getInt("IbupMg", 100);
-        int IbupMl = sharedPref.getInt("IbupMl", 100);
+        int IbupMg = sharedPref.getInt("IbupMg", 200);
+        int IbupMl = sharedPref.getInt("IbupMl", 5);
         editTextMg.setText(String.valueOf(IbupMg));
         editTextMl.setText(String.valueOf(IbupMl));
         editTextMg.startAnimation(shake);

@@ -24,7 +24,7 @@ public class IbuprofenCalculationSuppActivity extends AppCompatActivity {
         editTextMg.startAnimation(shake);
         SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("MyPref", 0);
         final SharedPreferences.Editor editor = sharedPref.edit();
-        int Mg = sharedPref.getInt("IbuprofenMgSupp", 100);
+        int Mg = sharedPref.getInt("IbuprofenMgSupp", 125);
         editTextMg.setText(String.valueOf(Mg));
 
         imageViewCalc.setOnClickListener(new Button.OnClickListener() {

@@ -25,7 +25,7 @@ public class ParacetamolConcentrationSuppActivity extends AppCompatActivity {
 
         SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("MyPref", 0);
         final SharedPreferences.Editor editor = sharedPref.edit();
-        int Mg = sharedPref.getInt("ParacMgSupp", 100);
+        int Mg = sharedPref.getInt("ParacMgSupp", 125);
         editTextMg.setText(String.valueOf(Mg));
         editTextMg.startAnimation(shake);
 
