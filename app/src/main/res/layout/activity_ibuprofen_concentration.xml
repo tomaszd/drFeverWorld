@@ -4,19 +4,19 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     android:gravity="center_horizontal|center_vertical"
-    android:orientation="vertical"
-    android:background="@drawable/background">
+    android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_horizontal|center_vertical"
-        android:orientation="vertical"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
 
         <LinearLayout
             android:id="@+id/linearRibbon"
@@ -65,11 +65,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
+
         <LinearLayout
             android:id="@+id/linearConcentration"
             android:layout_width="match_parent"
-            android:background="@drawable/ibupr_znaczek_bez"
             android:layout_height="wrap_content"
+            android:background="@drawable/ibupr_znaczek_bez"
             android:gravity="center_horizontal|center_vertical"
             android:orientation="vertical">
 
@@ -78,9 +79,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
-                android:text="@string/app_description"
-                android:textStyle="bold"
-                android:textSize="@dimen/FontSizeConcentration" />
+                android:text="@string/drug_concentration"
+                android:textSize="@dimen/FontSizeConcentration"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:id="@+id/linearConcentration2"
@@ -93,37 +94,37 @@
                     android:id="@+id/editTextMg"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/FontSizeConcentration"
                     android:digits="0123456789"
-                    android:inputType="numberDecimal"
+                    android:hint="0000"
                     android:imeOptions="actionDone"
-                    android:hint="0000" />
+                    android:inputType="numberDecimal"
+                    android:textSize="@dimen/FontSizeConcentration" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:text=" mg /"
-                    android:textStyle="bold"
-                    android:textSize="@dimen/FontSizeConcentration" />
+                    android:textSize="@dimen/FontSizeConcentration"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/editTextMl"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/FontSizeConcentration"
                     android:digits="0123456789"
-                    android:inputType="numberDecimal"
+                    android:hint="0000"
                     android:imeOptions="actionDone"
-                    android:hint="0000" />
+                    android:inputType="numberDecimal"
+                    android:textSize="@dimen/FontSizeConcentration" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:text=" ml"
-                    android:textStyle="bold"
-                    android:textSize="@dimen/FontSizeConcentration" />
+                    android:textSize="@dimen/FontSizeConcentration"
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
 

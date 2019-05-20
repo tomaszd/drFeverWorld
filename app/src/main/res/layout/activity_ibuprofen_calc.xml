@@ -60,8 +60,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="casual"
-            android:textColor="@color/colorBBlack"
             android:text="@string/your_suggested_summary_daily_dose_is_123_mg"
+            android:textAlignment="center"
+            android:textColor="@color/colorBBlack"
             android:textSize="14dp" />
 
         <TextView
@@ -69,8 +70,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="casual"
-            android:textColor="@color/colorBBlack"
             android:text="@string/your_suggested_single_dose_mg_of_ibuprofen_is"
+            android:textAlignment="center"
+            android:textColor="@color/colorBBlack"
             android:textSize="14dp" />
 
         <LinearLayout

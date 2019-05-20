@@ -29,7 +29,7 @@ public class IbuprofenCalculationSuppActivity extends AppCompatActivity {
 
         imageViewCalc.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
-                Intent myIntent = new Intent(IbuprofenCalculationSuppActivity.this, ParacetamolCalcActivity.class);
+                Intent myIntent = new Intent(IbuprofenCalculationSuppActivity.this, IbuprofenCalcActivity.class);
                 myIntent.putExtra("ibuprofen_way_of_giving", "supp");
                 String Mg = editTextMg.getText().toString();
                 editor.putInt("IbuprofenMgSupp", Integer.valueOf(Mg));

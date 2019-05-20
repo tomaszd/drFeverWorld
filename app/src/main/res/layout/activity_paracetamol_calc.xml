@@ -62,6 +62,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:text="@string/your_suggested_summary_daily_dose_is_123_mg"
+            android:textAlignment="center"
             android:textColor="@color/colorBBlack"
             android:textSize="14dp" />
 
@@ -71,6 +72,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:text="@string/your_suggested_single_dose_mg_of_paracetamol_is"
+            android:textAlignment="center"
             android:textColor="@color/colorBBlack"
             android:textSize="14dp" />
 
