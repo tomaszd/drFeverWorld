@@ -49,10 +49,10 @@ public class ParacetamolCalcActivity extends AppCompatActivity {
         SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0); // 0 - for private mode
         age = pref.getInt("age", 0); // getting Integer
         weight = pref.getInt("weight", 0); // getting Integer
-        ParacMg = pref.getInt("ParacMg", 100); // getting Integer
-        ParacMl = pref.getInt("ParacMl", 100); // getting Integer
-        ParacMgSupp = pref.getInt("ParacMgSupp", 100); // getting Integer
-        ParacMgPill = pref.getInt("ParacMgPill", 100); // getting Integer
+        ParacMg = pref.getInt("ParacMg", 120); // getting Integer
+        ParacMl = pref.getInt("ParacMl", 5); // getting Integer
+        ParacMgSupp = pref.getInt("ParacMgSupp", 125); // getting Integer
+        ParacMgPill = pref.getInt("ParacMgPill", 500); // getting Integer
         ParacetamolTotal = pref.getInt("ParacetamolTotal", 0); // getting Integer
 
 

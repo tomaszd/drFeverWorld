@@ -51,10 +51,10 @@ public class IbuprofenCalcActivity extends AppCompatActivity {
         SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0); // 0 - for private mode
         age = pref.getInt("age", 0); // getting Integer
         weight = pref.getInt("weight", 0); // getting Integer
-        IbupMg = pref.getInt("IbupMg", 100); // getting Integer
-        IbupMl = pref.getInt("IbupMl", 100); // getting Integer
-        IbuprofenMgSupp = pref.getInt("IbuprofenMgSupp", 100); // getting Integer
-        IbuprofenMgPill = pref.getInt("IbuprofenMgPill", 100); // getting Integer
+        IbupMg = pref.getInt("IbupMg", 200); // getting Integer
+        IbupMl = pref.getInt("IbupMl", 5); // getting Integer
+        IbuprofenMgSupp = pref.getInt("IbuprofenMgSupp", 125); // getting Integer
+        IbuprofenMgPill = pref.getInt("IbuprofenMgPill", 200); // getting Integer
         IbuprofenTotal = pref.getInt("IbuprofenTotal", 0); // getting Integer
 
 
