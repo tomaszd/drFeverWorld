@@ -22,7 +22,7 @@
     <string name="or">lub</string>
     <string name="supp">czopek</string>
     <string name="single_dose_paracetamol">Twoja zalecana POJEDYNCZA DAWKA (mg)  PARACETAMOLU  to:</string>
-    <string name="suggested_summary_daily_dose">Zalecana dawka dzienna to:</string>
+    <string name="suggested_summary_daily_dose">Zalecana dawka dobowa to:</string>
     <string name="app_description"> Zalecana dawka ma charakter informacyjny i jest obliczana zgodnie ze wskazaniami wieku i masy ciała. Pamiętaj, aby przeczytać instrukcje w ulotce dla pacjenta dołączonej do leku. W razie wątpliwości skonsultuj się z lekarzem lub farmaceutą. Aplikacja ma charakter informacyjny i nie może zastąpić konsultacji w gabinecie lekarskim Dr Fever-Paracetamol Ibuprofen jest narzędziem do obliczania dawki do podawania najpopularniejszych leków przeciwgorączkowych</string>
     <string name="mg_1_supp">mg / 1 CZOPEK</string>
     <string name="mg_1_pill">mg / 1 TABLETKA</string>
