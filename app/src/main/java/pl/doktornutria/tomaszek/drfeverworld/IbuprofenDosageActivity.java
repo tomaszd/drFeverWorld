@@ -63,9 +63,9 @@ public class IbuprofenDosageActivity extends AppCompatActivity {
 
 
         String dosageText = String.valueOf(totalDosage / 4) + " mg " + getString(R.string.every) + " 6h\n  " + getString(R.string.or) + "\n" + String.valueOf(totalDosage / 3) + " mg " + getString(R.string.every) + "  8h";
-        if (age < 7) {
+        if (age < 9) {
             dosageText = String.valueOf(totalDosage / 4) + " mg " + getString(R.string.every) + " 6h\n  " + getString(R.string.or) + "\n" + String.valueOf(totalDosage / 3) + " mg " + getString(R.string.every) + "  8h";
-        } else if (age >= 7 && age <= 12) {
+        } else if (age >= 9 && age <= 12) {
             dosageText = String.valueOf(totalDosage / 3) + " mg " + getString(R.string.every) + "  8h\n   " + getString(R.string.or) + "\n" + String.valueOf(totalDosage / 4) + " mg " + getString(R.string.every) + "  6h";
         } else if (age > 12) {
             dosageText = String.valueOf(totalDosage / 3) + " mg " + getString(R.string.every) + "  8h\n  " + getString(R.string.or) + "\n" + String.valueOf(totalDosage / 4) + " mg " + getString(R.string.every) + "  6h";
