@@ -47,7 +47,7 @@ public class IbuprofenDosageActivity extends AppCompatActivity {
         SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0); // 0 - for private mode
         int age = pref.getInt("age", 50); // getting Integer
         int weight = pref.getInt("weight", 50); // getting Integer
-        int totalDosage = 40 * weight;
+        int totalDosage = 30 * weight;
 
 
         if (age <= 9 || weight <= 29) {
