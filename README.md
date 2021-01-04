@@ -4,8 +4,9 @@ Application to count the amount of Antibiotics for kids
 ![alt text](https://play-lh.googleusercontent.com/gGkWLrajdO7mlVWpUK2jMVmRFUaNjxmdBhXiOeQaX-_HGDzo4OP1lzTYXxyQCObSepI=w720-h310-rw
  "title")
 
+![alt text](https://play-lh.googleusercontent.com/Zn4ifcT-2pQ949SVpRCizu2oCcWpsxwZQBk78p3dH1VQ4zomCDi86cU3HpuDuruVWg=w720-h310-rw
+ "title")
 
-https://play-lh.googleusercontent.com/sWNmm9o_bRSUcmoniSmgTkdWg7O8oBu6CzCEUVU1sOvZ87vb_8R8sACbVJZn1pX6yFw=w720-h310-rw
 
 It is making measurements of weight /age and show needed dosage for pills /syrup/ suppository
 
